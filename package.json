@@ -12,16 +12,8 @@
     "coverage": "jest --coverage",
     "show:dist": "live-server dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/dim4ik1985/ci-template.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dim4ik1985/ci-template/issues"
-  },
-  "homepage": "https://github.com/dim4ik1985/ci-template#readme",
   "devDependencies": {
     "@babel/cli": "^7.22.10",
     "@babel/core": "^7.22.10",
