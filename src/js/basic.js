@@ -10,11 +10,8 @@ export default function orderByProps(obj, sortingOrder) {
   const cardHeroes = [];
 
   // eslint-disable-next-line guard-for-in
-  for (const prop in arrSortedResult) {
-    const copyObj = {};
-    copyObj.key = arrSortedResult[prop];
-    copyObj.value = obj[arrSortedResult[prop]];
-    cardHeroes.push(copyObj);
+  for (const item in arrSortedResult) {
+    cardHeroes.push({ key: arrSortedResult[item], value: obj[arrSortedResult[item]] });
   }
   return cardHeroes;
 }
